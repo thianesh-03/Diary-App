@@ -8,7 +8,7 @@ import { DiaryComponent } from './diary/diary.component';
 import { DiaryFormComponent } from './diary-form/diary-form.component';
 import { RouterLink, RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule
   ],
   providers: [
-    provideClientHydration()
+    provideHttpClient(withFetch())
   ],
   bootstrap: [AppComponent]
 })

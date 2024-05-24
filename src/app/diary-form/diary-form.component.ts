@@ -47,6 +47,7 @@ export class DiaryFormComponent {
       this.diaryForm.value.entry
     );
     if (this.editMode) {
+      newEntry.id = +this.paramId;
       this.diaryDataServices.onUpdateEntry(this.paramId, newEntry);
     } else {
       this.diaryDataServices.onAddDiaryEntry(newEntry);
