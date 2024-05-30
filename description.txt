@@ -1,0 +1,8 @@
+MyDiary is a sleek and intuitive diary application built using the powerful MEAN stack 
+(MongoDB, Express.js, Angular, Node.js). 
+Designed for users who love to document their daily experiences, thoughts, and memories. 
+MyDiary offers a seamless and secure way to store and retrieve your daily notes, all organized by date.
+
+Frontend: Built using Angular, providing a dynamic and responsive user interface.
+Backend: Powered by Node.js and Express.js, ensuring efficient handling of server-side logic and API requests.
+Database: Utilizes MongoDB for robust and flexible data storage, perfect for managing diary entries and user information.
